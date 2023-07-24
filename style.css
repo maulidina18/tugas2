@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: beige;
+    font-family: sans-serif;
+}
+
+header,
+nav,
+section,
+#bio-container {
+    width: 1000px;
+    background-color: white;
+    margin: auto;
+    border-bottom: 3px solid darkgray;
+}
+
+header img {
+    width: 130px;
+    float: left;
+    margin-left: 20px;
+}
+
+header h1 {
+    float: left;
+    font-size: 45px;
+    font-weight: normal;
+    margin-top: 25px;
+}
+
+ul li {
+    list-style: none;
+}
+
+nav {
+    padding: 20px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.last-menu{
+    margin-right: 40px;
+}
+
+#left-menu {
+    float: left;
+}
+
+#right-menu {
+    float: right;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 32px;
+    padding: 20px 0;
+}
+
+article {
+    width: 285px;
+    float: left;
+    margin-left: 35px;
+}
+
+article img {
+    margin-bottom: 15px;
+}
+
+article p {
+    text-align: justify;
+}
+
+article bottom {
+    display: block;
+    margin: 20px auto;
+}
+
+#bio-container img {
+    width: 105px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 20px;
+    border: 1px solid darkgrey;
+    padding: 5px;
+}
+
+#bio-info {
+    width: 770px;
+    float: left;
+}
+
+#bio-info h3 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#bio-info p {
+    text-align: justify;
+    margin-right: 30px;
+}
+
+#bio-info .text-right {
+    display: block;
+    text-align: right;
+    margin-right: 30px;
+    border-bottom: 2px solid gray;
+    padding-bottom: 10px;
+}
+
+#bio-info ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+    text-align: right;
+    margin-right: 30px;
+}
+
+.fix-container {
+    clear: both;
+}
